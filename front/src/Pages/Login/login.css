@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.input {
+    width: 250px;
+    border-radius: 10px;
+    height: 30px;
+    border:solid 1px;
+    border-color: #E6E7E8;
+}
+.button{
+    background: #0b57d0;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.inputToLabel {
+    border: none;
+}
+body {
+    /* Define uma imagem de fundo */
+    background-image: linear-gradient(to bottom, #0b57d0, white);
+    /* Repetir verticalmente para cobrir toda a tela */
+    background-repeat: repeat-y;
+    /* Centralizar a imagem */
+    background-position: center top;
+    /* Fixar o fundo para que ele não role com o conteúdo */
+    background-attachment: fixed;
+}
