@@ -39,7 +39,7 @@ export default function Login({user2}) {
           <NomeCampo>
           <span>Login de rede</span>
           </NomeCampo>
-            <input type="text" className='input' name='usuario' value={user} required onChange={(e) => setuser(e.target.value)}/>
+            <input type="text" className='w-64 rounded h-8 border border-[#959593]' name='usuario' value={user} required onChange={(e) => setuser(e.target.value)}/>
         </label>
       </Campos>
       <Campos>
@@ -47,7 +47,7 @@ export default function Login({user2}) {
         <NomeCampo>
           <span>Senha</span>
         </NomeCampo>
-          <input type="password" className='input' name="pass" id="" value={pass} required onChange={(e) => setPass(e.target.value)} />
+          <input type="password" className='w-64 rounded h-8 border border-[#959593]' name="pass" id="" value={pass} required onChange={(e) => setPass(e.target.value)} />
       </label>
       </Campos>
       <Campos>
